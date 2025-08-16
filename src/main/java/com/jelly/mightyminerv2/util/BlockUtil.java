@@ -121,10 +121,10 @@ public class BlockUtil {
     public static MinHeap<BlockPos> findMineableBlocksAroundPoint(Vec3 point, Map<Integer, Integer> blockPriorities, Set<Long> blocksToIgnore, int miningSpeed) {
         final MinHeap<BlockPos> blocks = new MinHeap<>(500);
 
-        final int HORIZONTAL_RADIUS = 5;
+        final int HORIZONTAL_RADIUS = 4.5;
         final int VERTICAL_LOWER = -3;
-        final int VERTICAL_UPPER = 4;
-        final double MAX_DISTANCE = 4;
+        final int VERTICAL_UPPER = 4.5;
+        final double MAX_DISTANCE = 5;
 
         // Calculate bounds for the block
         final double baseX = point.xCoord;
