@@ -138,6 +138,7 @@ public class RouteMinerMacro extends AbstractMacro {
             blocksList.add(MineableBlock.CITRINE);
             blocksList.add(MineableBlock.PERIDOT);
             blocksList.add(MineableBlock.JASPER);
+            blocksList.add(MineableBlock.RUBY);
         }
 
         if (MightyMinerConfig.routeMineOre) {
